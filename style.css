@@ -1,0 +1,21 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.artboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0% 0%;
+    border: #04AA6D solid 10px;
+}
+.pixel:hover {
+    box-sizing: border-box;
+    border: 1px dashed black;
+}
